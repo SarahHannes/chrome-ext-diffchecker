@@ -80,21 +80,6 @@ A professional text comparison tool with character-level diff support and histor
     - New: "Hello 🌟"
     - Expected: "👋" removed, "🌟" added
 
-12. **Mixed Content**
-    - Old: "Price: $19.99 🇺🇸"
-    - New: "Price: €19.99 🇪🇺"
-    - Expected: "$" removed, "€" added, "🇺🇸" removed, "🇪🇺" added
-
-### Performance Testing
-13. **Large Text Comparison**
-    - Old: 10,000 character text
-    - New: 10,000 character text with minor changes
-    - Expected: Comparison completes within 2 seconds
-
-14. **History Management**
-    - Create 8 different comparisons
-    - Expected: Only last 7 saved, oldest removed
-
 ## Technical Implementation
 
 ### Architecture
